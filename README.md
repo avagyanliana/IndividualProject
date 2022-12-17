@@ -1,6 +1,7 @@
 # IndividualProject
 Marketing Individual Project
-Customer lifetime value analysis
+
+## Customer lifetime value analysis
 
 Dataset
 
