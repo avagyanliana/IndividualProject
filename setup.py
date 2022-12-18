@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="clv",
+    name="IndividualProject",
     version="0.1.2",
     author="Liana Avagyan",
     author_email="liana_avagyan@edu.aua.am",
