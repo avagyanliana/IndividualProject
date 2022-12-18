@@ -25,12 +25,7 @@ from lifetimes.plotting import plot_probability_alive_matrix
 
 
 class clv():
-    """
-    Attributes:
-    CustomerID: unique id 
-    InvoiceDate: datetime of purchase
-    """
-
+  
     def __init__(self,CustomerID='CustomerID',InvoiceDate='InvoiceDate'):
 
         self.customerid = CustomerID
