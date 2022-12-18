@@ -3,6 +3,26 @@
 
 # In[3]:
 
+import pandas as pd
+import numpy as np
+import networkx as nx
+import numpy as np
+import seaborn as sns
+import datetime as dt
+from lifetimes.plotting import *
+from lifetimes.utils import *
+#from lifetimes.estimation import *
+import lifetimes
+from lifetimes.plotting import plot_period_transactions
+from lifetimes.utils import calibration_and_holdout_data
+from lifetimes.plotting import plot_calibration_purchases_vs_holdout_purchases
+from lifetimes import GammaGammaFitter
+from lifetimes import BetaGeoFitter
+from lifetimes.plotting import plot_frequency_recency_matrix
+import matplotlib.pyplot as plt
+from lifetimes.plotting import plot_probability_alive_matrix
+
+
 
 class clv():
     """
